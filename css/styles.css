@@ -71,6 +71,25 @@ body {
   padding: 15px;
 }
 
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+  }
+}
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -288,6 +307,12 @@ border-top: none;
   color: var(--titletext-color);
   position: relative;
   transition: color var(--transform-item-hover);
+}
+
+@media screen and (max-width: 767px) {
+  .menu-link {
+    display: none;
+  }
 }
 
 .menu-link:hover,
