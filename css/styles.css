@@ -1480,7 +1480,7 @@ flex-shrink: 0;
   .hero-oder{
       height: 600px;
       padding-top: 186px;
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-desktop.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/bg-desktop.jpg);
   }
   .hero-title{
       font-weight: 700;
